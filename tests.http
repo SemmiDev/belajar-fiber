@@ -1,0 +1,38 @@
+GET http://localhost:3000/api/
+Accept: application/json
+
+###
+
+GET http://localhost:3000/api/3
+Accept: application/json
+
+###
+
+DELETE http://localhost:3000/api/1
+Accept: application/json
+
+###
+
+PUT http://localhost:3000/api/3
+Content-Type: application/json
+
+{
+   "name": "Laptop 2",
+   "description": "Laptop xxx xxx xxx 2",
+   "category": "Elektronik 2",
+   "price": 10000002,
+   "amount": 3
+}
+
+###
+
+POST http://localhost:3000/api/
+Content-Type: application/json
+
+{
+   "name": "Laptop",
+   "description": "Laptop xxx xxx xxx",
+   "category": "Elektronik",
+   "price": 10000000,
+   "amount": 3
+}
